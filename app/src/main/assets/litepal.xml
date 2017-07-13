@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--配置数据库表和实体类的映射关系-->
+<litepal>
+    <dbname value="weather" ></dbname>
+    <version value="1" ></version>
+    <list>
+        <mapping class="cn.aspire.weather.pojo.City"></mapping>
+        <mapping class="cn.aspire.weather.pojo.Country"></mapping>
+        <mapping class="cn.aspire.weather.pojo.Province"></mapping>
+    </list>
+</litepal>
